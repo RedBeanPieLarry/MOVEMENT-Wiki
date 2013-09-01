@@ -1,0 +1,205 @@
+/*
+	Name: MOVEMENT-Website
+	Date: Aug 2013
+	Version: beta
+*/
+
+/***** Global *****/
+
+/* Font */
+@font-face {
+    font-family: "Century Gothic";
+    src: url("GOTHIC.TTF");
+}
+
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+
+/* Body */
+body {
+	background: #E0D2C8;
+	color: #000305;
+	font-size: .85em; /*Base font size: 14px*/
+	font-family: "Century Gothic" , "Arial";
+	text-align: left;
+}
+	
+/* Headings */
+h2 {font-size: 1.571em}	/* 22px */
+h3 {font-size: 1.429em}	/* 20px */
+h4 {font-size: 1.286em}	/* 18px */
+h5 {font-size: 1.143em}	/* 16px */
+h6 {font-size: 1em}	/* 14px */
+
+h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+/* Anchors */
+a {outline: 0;}
+a img {border: 0px; text-decoration: none;}
+a:link, a:visited {
+	color: #0098DE;
+	padding: 0 1px;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: #0098DE;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #333;
+}
+
+/* Lists */
+ul {
+	list-style: outside disc;
+	margin: 1em 0 1.5em 1.5em;
+}
+ 
+
+ol {
+	list-style: outside decimal;
+	margin: 1em 0 1.5em 1.5em;
+}
+
+/*
+	Layout
+*****************/
+.body {
+	clear: both; 
+	margin: 0 auto; 
+	width: 800px;
+}
+
+/*
+	Header
+*****************/
+/* Main Nav */
+#banner nav{
+	background-color:#000305;
+	font-size: 1.143em;
+	line-height:30px;
+	height:40px;
+	margin: 0 auto 2em 0;
+	padding: 0;
+	text-align: center;
+	width: 800px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#banner nav ul {list-style: none; margin: 0 auto 0 -20px; width:800px;}
+#banner nav li {float: left; display: inline; margin: 0 auto;}
+
+#banner nav a:link, #banner nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 1.5em;
+	text-decoration: none;
+}
+#banner nav a:hover, #banner nav a:active,#banner nav .active a:link, #banner nav .active a:visited {
+	background: #0098DE;
+	color: #fff;
+	text-shadow: none !important;
+}
+
+#banner nav li:first-child a {
+	border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	
+	border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+	
+/*
+	Featured
+*****************/
+#featured {
+	background: #fff;
+	margin-bottom: 2em;
+	overflow: hidden;
+	padding: 20px;
+	width: 760px;
+ 
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+ 
+#featured figure {
+	border: 2px solid #eee;
+	float: right;
+	margin: 0.786em 2em 0 5em;
+}
+
+#featured figure img {display: block; float: right; width:100px ; heigh:100px;}
+#featured h2 {color: #00aeff; font-size: 1.714em; margin-bottom: 0.333em;}
+#featured h3 {font-size: 1.429em; margin-bottom: .5em;}
+#featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
+#featured h3 a:hover, #featured h3 a:active {color: #fff;}
+ 
+/*
+	Body
+*****************/
+#content {
+	background: #fff;
+	margin-bottom: 2em;
+	overflow: hidden;
+	padding: 20px 20px;
+	width: 760px;
+ 
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+
+/*
+	Extras
+*****************/
+#extras {margin: 0 auto 3em auto; overflow: hidden;} 
+#extras ul {list-style: none; margin: 0; margin-left:-40px;}
+#extras li {border-bottom: 1px solid #fff;}
+#extras h2 {
+	color: #00aeff;
+	font-size: 1.429em;
+	margin-bottom: .25em;
+	padding: 0 3px;
+}
+ 
+#extras a:link, #extras a:visited {
+	color: #444;
+	display: block;
+	border-bottom: 1px solid #F4E3E3;
+	text-decoration: none;
+	padding: .3em .25em;
+}
+ 
+/* Releated Link */
+#extras .rlink {
+	float: left;
+	width: 615px;
+}
+ 
+#extras .rlink li {float: left; margin: 0 20px 0 0; width: auto;}
+
+/* Social */
+#extras .social {
+	float: right;
+	width: 175px;
+}
+
+/*
+	Footer
+*****************/
+#footer {padding-bottom: 2em; text-align: right;}
