@@ -74,7 +74,7 @@ ol {
 .body {
 	clear: both; 
 	margin: 0 auto; 
-	width: 800px;
+	width: 900px;
 }
 
 /*
@@ -83,26 +83,26 @@ ol {
 /* Main Nav */
 #banner nav{
 	background-color:#000305;
-	font-size: 1.143em;
+	font-size: 1.25em;
 	line-height:30px;
 	height:40px;
 	margin: 0 auto 2em 0;
 	padding: 0;
 	text-align: center;
-	width: 800px;
+	width: 900px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
 
-#banner nav ul {list-style: none; margin: 0 auto 0 -20px; width:800px;}
+#banner nav ul {list-style: none; margin: 0 auto 0 -25px; width:900px;}
 #banner nav li {float: left; display: inline; margin: 0 auto;}
 
 #banner nav a:link, #banner nav a:visited {
 	color: #fff;
 	display: inline-block;
 	height: 30px;
-	padding: 5px 1.5em;
+	padding: 5px 1.2em;
 	text-decoration: none;
 }
 #banner nav a:hover, #banner nav a:active,#banner nav .active a:link, #banner nav .active a:visited {
@@ -129,7 +129,7 @@ ol {
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px;
-	width: 760px;
+	width: 860px;
  
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -156,7 +156,7 @@ ol {
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px 20px;
-	width: 760px;
+	width: 860px;
  
 	border-radius: 10px;
 	-moz-border-radius: 10px;
